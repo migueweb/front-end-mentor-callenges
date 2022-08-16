@@ -34,7 +34,7 @@ body {
     color: var(--orange);
     text-align: center;
     text-align: justify;
-    transition: .2s;
+    transition: .8s;
 }
 .menu-bar-link:hover {
     transform: scale(1.2);
@@ -61,8 +61,8 @@ body {
     max-width: 100rem;
     width: 100%;
 }
-.main-container-heading {
-    font-size: 2.2rem;
+.main-container-title {
+    font-size: 2.4rem;
     letter-spacing: .2rem;
     font-weight: 500;
 }
@@ -89,6 +89,7 @@ body {
 /* Footer */
 .footer {
     display: flex;
+    flex-flow: column wrap;
     justify-content: center;
     align-items: center;
 }
@@ -101,8 +102,13 @@ body {
     padding-top: 5rem;
     padding-bottom: 5rem;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
 .footer-container-link {
-    color: var(--light-blue);
+    text-decoration: none;
+    color: var(--blue);
+}
+.footer-container-link:hover {
+    color: var(--blue);
+    text-decoration: underline;
 }
