@@ -28,9 +28,8 @@ Users should be able to:
 ![screenshot](./screenshot.png)
 
 ### Links
-
-- Solution URL: [click here](https://your-solution-url.com)
-- Live Site URL: [click here](https://your-live-site-url.com)
+<!-- - Solution URL: [click here](https://your-solution-url.com)-->
+- Live Site URL: [click here](https://migueweb.github.io/frontend-mentor-challenges/challenges/newbie/stats-preview-card-component/)
 
 ## My process
 
