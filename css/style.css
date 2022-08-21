@@ -94,6 +94,7 @@ body {
     align-items: center;
 }
 .footer-container {
+    margin-top: 5rem;
     position: relative;
     bottom: 0;
     text-align: center;
@@ -111,4 +112,10 @@ body {
 .footer-container-link:hover {
     color: var(--blue);
     text-decoration: underline;
+}
+.break-line {
+    margin: 0 auto;
+    display: block;
+    height: 1rem;
+    width: 1rem;
 }

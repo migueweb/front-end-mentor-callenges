@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+--bright-orange: hsl(31, 77%, 52%);
+--dark-cyan: hsl(184, 100%, 22%);
+--very-dark-cyan: hsl(179, 100%, 13%);
+
+--transparent-white /* (paragraphs) */: hsla(0, 0%, 100%, 0.75);
+--very-light-gray /* (background, headings, buttons) */: hsl(0, 0%, 95%);
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 8rem auto 8rem auto;
+    width: 90%;
+    padding: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    max-width: 32.3rem;
+
+}
+.container:nth-child(1) {
+    background-color: var(--bright-orange);
+}
+
+.card {
+    margin: 0;
+    padding: 4rem;
+    height: 35rem;
+}
+.card-header-title {
+    color: var(--very-light-gray);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.card-text {
+    width: 98%;
+    color: var(--transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 2.4rem; 
+}
+.card-footer {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.card-footer-button{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 1rem 3rem 1rem 3rem;
+    background-color: var(--very-light-gray);
+    border: solid .3rem var(--very-light-gray);
+    border-radius: 4rem;
+    transition: color .3s;
+}
+.card-footer-button:hover {
+    color: var(--very-light-gray);
+    background-color: rgba(0,0,0,0);
+}
+
+.card-bg-color-1 {
+    background-color: var(--bright-orange);
+}
+.card-bg-color-2 {
+    background-color: var(--dark-cyan);
+}
+.card-bg-color-3 {
+    background-color: var(--very-dark-cyan);
+}
+.btn-color-1{
+    color: var(--bright-orange);    
+}
+.btn-color-2{
+    color: var(--dark-cyan);    
+}
+.btn-color-3{
+    color: var(--very-dark-cyan);    
+}
+
+@media only screen and (min-width:90rem) {
+    body {
+        width: auto;
+        height: 100vh;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        width: fit-content;
+        max-width: 130rem;
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .card {
+        max-width: 22rem;
+        width: 100%;
+        min-width: 12rem;
+        height: 40rem;
+    }
+    .card-text {
+        width: 98%;
+    }
+    .card-footer {
+        margin-top: 8rem;
+        margin-bottom: -2rem;
+    }
+}
