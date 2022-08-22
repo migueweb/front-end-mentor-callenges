@@ -29,8 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [view code](https://migueweb.github.io/frontend-mentor-challenges/challenges/newbie/nft-preview-card-component/)
-- Live Site URL: [NFT preview card component](https://github.com/migueweb/frontend-mentor-challenges/tree/main/challenges/newbie/nft-preview-card-component)
+- Live Site URL: [NFT preview card component](https://migueweb.github.io/frontend-mentor-challenges/challenges/newbie/nft-preview-card-component/)
 
 ## My process
 

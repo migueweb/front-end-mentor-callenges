@@ -5,4 +5,8 @@ Hi 👋 in this repository you can find some Frontend mentor challenges solved b
 
 ## Challenges Solved
 ### Newbie
-
+- [QR code component](https://github.com/migueweb/frontend-mentor-challenges/tree/main/challenges/newbie/qr-code-component)
+- [Product preview card component](https://github.com/migueweb/frontend-mentor-challenges/tree/main/challenges/newbie/product-preview-card-component)
+- [Stats preview card component](https://github.com/migueweb/frontend-mentor-challenges/tree/main/challenges/newbie/stats-preview-card-component)
+- [3 columns preview card component](https://github.com/migueweb/frontend-mentor-challenges/tree/main/challenges/newbie/3-column-preview-card-component)
+- [NFT preview card component](https://github.com/migueweb/frontend-mentor-challenges/tree/main/challenges/newbie/nft-preview-card-component)
