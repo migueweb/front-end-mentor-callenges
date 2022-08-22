@@ -10,7 +10,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 
@@ -30,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [NFT preview card component](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [view code](https://migueweb.github.io/frontend-mentor-challenges/challenges/newbie/nft-preview-card-component/)
+- Live Site URL: [NFT preview card component](https://github.com/migueweb/frontend-mentor-challenges/tree/main/challenges/newbie/nft-preview-card-component)
 
 ## My process
 
@@ -44,6 +43,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- github - [@migueweb](https://github.com/migueweb)
+- Frontend Mentor - [@migueweb](https://www.frontendmentor.io/profile/migueweb)
 
