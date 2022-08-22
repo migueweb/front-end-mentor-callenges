@@ -3,7 +3,7 @@ Hi 👋 in this repository you can find some Frontend mentor challenges solved b
 
 [Go to the website 🚀](https://migueweb.github.io/frontend-mentor-challenges/)
 
-## Challenges Solved
+## Challenges: source code
 ### Newbie
 - [QR code component](https://github.com/migueweb/frontend-mentor-challenges/tree/main/challenges/newbie/qr-code-component)
 - [Product preview card component](https://github.com/migueweb/frontend-mentor-challenges/tree/main/challenges/newbie/product-preview-card-component)
