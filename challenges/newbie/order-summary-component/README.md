@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Order summary card solution](https://your-live-site-url.com)
+- Live Site URL: [Order summary card solution](https://migueweb.github.io/frontend-mentor-challenges/challenges/newbie/order-summary-component/)
 
 ## My process
 
