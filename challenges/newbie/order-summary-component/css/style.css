@@ -29,7 +29,7 @@ body {
     background-color: #fff;
     border-radius: 2.2rem;
     overflow: hidden;
-    box-shadow: .2rem 1rem 3.5rem rgba(0, 0, 0, 0.101), -.2rem 1rem 3.5rem rgba(0, 0, 0, 0.101);
+    box-shadow: .2rem 1rem 3.5rem rgba(0, 0, 0, 0.158), -.2rem 1rem 3.5rem rgba(0, 0, 0, 0.158);
 }
 
 
@@ -132,7 +132,7 @@ body {
         background-size: contain;
     }
     .card {
-        width: 28%;
+        width: 26%;
     }
     .card-body-title {
         font-weight: 700;
