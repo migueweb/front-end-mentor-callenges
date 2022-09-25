@@ -1,0 +1,140 @@
+/* Custom fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--pale-blue);
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.card {
+    width: 337.5px;
+    background-color: #fff;
+    border-radius: 2.2rem;
+    overflow: hidden;
+    box-shadow: .2rem 1rem 3.5rem rgba(0, 0, 0, 0.101), -.2rem 1rem 3.5rem rgba(0, 0, 0, 0.101);
+}
+
+
+.card-header {
+    width: 100%;
+}
+.card-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-body {
+    padding: 1.5rem 1.8rem 2.5rem 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card-body-title {
+    text-transform: capitalize;
+    margin-bottom: .5rem;
+    color: var(--dark-blue);
+}
+.card-body-text {
+    color: var(--desaturated-blue);
+    width: 90%;
+    line-height: 2.2rem;
+}
+.card-body-plan {
+    margin-top: .8rem;
+    background-color: var(--very-pale-blue);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 88%;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.card-body-plan-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 4rem;
+}
+.card-body-plan-text-title {
+    color: var(--dark-blue);
+    font-size: 1.4rem;
+    margin: 0;
+}
+.card-body-plan-text-text {
+    color: var(--desaturated-blue);
+}
+.card-body-plan-link {
+    font-size: 1.4rem;
+    color: var(--bright-blue);
+    font-weight: 700;
+}
+.card-body-plan-link:hover {
+    text-decoration: none;
+}
+
+.card-footer {
+    width: 88%;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.card-footer-btn {
+    background-color: var(--bright-blue);
+    color: #fff;
+    padding: 1.5rem 0rem;
+    border-radius: 1rem;
+    margin: 0;
+    width: 110%;
+    text-decoration: none;
+    box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.3);
+}
+.card-footer-btn:active {
+    background-color: var(--desaturated-blue);
+}
+.card-footer-link {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--desaturated-blue);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.card-footer-link:hover {
+    color: var(--dark-blue);
+}
+
+@media only screen and (min-width: 1280px) {
+    body {
+        background-image: url(../images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .card {
+        width: 28%;
+    }
+    .card-body-title {
+        font-weight: 700;
+    }
+}
