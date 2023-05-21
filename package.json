@@ -1,0 +1,9 @@
+{
+  "type": "module",
+  "name": "frontend-mentor-challenges",
+  "version": "1.0.0",
+  "description": "Hi 👋 this repo is my collection of Frontend mentor challenges solved",
+  "main": "generateReadme.js",
+  "author": "@migueweb",
+  "license": "ISC"
+}
